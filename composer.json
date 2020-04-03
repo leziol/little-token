@@ -1,0 +1,16 @@
+{
+    "name": "ezio/little-token",
+    "description": "little-token",
+    "authors": [{
+        "name": "ezio",
+        "email": "768668729@qq.com"
+    }],
+    "require": {
+        "firebase/php-jwt": "^5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "LittleToken\\": "src/"
+        }
+    }
+}
